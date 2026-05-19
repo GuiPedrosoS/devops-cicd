@@ -37,7 +37,7 @@ jobs:
 
     steps:
       - name: Ambiente de homologacao
-        run: "Executando deploy em ambiente de homologacao"
+        run: echo "Executando deploy em ambiente de homologacao"
   producao:
     needs:
       - homologacao
