@@ -44,5 +44,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -name: Deploy producao
+      - name: Deploy producao
         run: echo "Executando deploy em prod"
